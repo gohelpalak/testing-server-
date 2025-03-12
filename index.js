@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "https://infinitefusion.tech" }));
+app.use(cors({ origin: "https://infinitefusion.tech/" }));
 
 mongoose.connect("mongodb+srv://gohelpalak14:palak%4022@cluster0.cjwxl.mongodb.net/employees", {
   useNewUrlParser: true,
